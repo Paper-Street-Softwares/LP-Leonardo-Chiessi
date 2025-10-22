@@ -18,7 +18,7 @@ export default function Hero({
   const backgroundClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "from-bgSectionDark to-darker",
+    default: "bg-bgSectionDark",
   };
   const bgGradient = backgroundClasses[colorMode] || backgroundClasses.default;
 
@@ -134,9 +134,9 @@ export default function Hero({
       minititleColor: isMobile
         ? "bg-minititle text-minititleLightLabel"
         : "bg-minititle text-minititleDarkLabel",
-      titleTextColor: "text-white",
-      subtitleTextColor: "text-white",
-      obsTextColorOverride: "text-white",
+      titleTextColor: "text-black",
+      subtitleTextColor: "text-black",
+      obsTextColorOverride: "text-black",
     });
   }
 
